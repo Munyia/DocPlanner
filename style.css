@@ -379,33 +379,35 @@ nav a {
   line-height: 16px;
   color: #747474;
 }
+
 #section6 {
   display: flex;
-  border: 1px solid black;
   width: 75%;
   margin: 50px auto;
   justify-content: space-between;
-  border-radius: 10px;
-  border: 1px solid black;
   flex-wrap: wrap;
-  gap: 20%;
-  column-gap: 30px;
-  row-gap: 30px;
-  border: none;
+  row-gap: 2vh;
 }
-.classimg {
+.classimgs {
   display: flex;
-  display: inline-block;
-  padding:20px ;
-  height: 15px;
-  width: 80%;
-  gap: 50%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30%;
+}
+.classimgs:hover {
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.classimgs img {
+  width: 100%;
+}
+.classimgs div {
   display: flex;
+  justify-content: space-between;
+  padding: 20px;
   align-items: center;
-  justify-content: space-evenly;
 }
+
 .COT {
-  display: flex;
   font-family: Roboto, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -414,47 +416,35 @@ nav a {
   color: #747474;
 }
 
-#but{
-  display: flex;
-  font-family: Roboto, Arial, sans-serif;
+#but {
+  font-family: "Roboto", Arial, sans-serif;
   text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
-  line-height: 10px;
-  height: 20px;
+  padding: 10px 20px;
   color: #ffffff;
   background-color: rgb(61, 131, 223);
   border-radius: 3px;
-  padding: 5px 5px;
-  margin: 5px 5px;
-  border:none ;
-  width: 80px;
 }
 #section7 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
-  margin-top: 50px;
-  border: none;
-  text-align: center;
+  flex-direction: column;
+  margin: 50px 0;
+  gap: 3vh;
 }
 #sec7a {
-  display: flex;
+  text-align: center;
   font-family: "Work Sans", Arial, sans-serif;
   font-size: 30px;
   font-weight: 300;
   font-style: normal;
   line-height: 33px;
   color: #333333;
-  justify-items: center;
-  align-items: center;
 }
-#sec7b{
-  display: flex;
-  justify-items: center;
-  align-items: center;
+#sec7b {
   font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-size: 12px;
@@ -462,12 +452,9 @@ nav a {
   line-height: 17px;
   padding: 10px 10px;
   color: #ffffff;
-  background-color:rgb(61, 131, 223); 
+  background-color: rgb(61, 131, 223);
   border-radius: 3px;
-  width: 40%;
-  margin: left 30px;;
 }
-footer{
+/* footer{
   
-}
-
+} */
