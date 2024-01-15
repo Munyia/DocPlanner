@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Work+Sans:wght@300&display=swap");
 
 body {
   height: 100%;
@@ -307,79 +307,118 @@ nav a {
   row-gap: 50px;
   margin-left: 30px;
   border: none;
+  align-items: center;
 }
 .icons img {
   width: 15%;
 }
 #section5 {
-  display: flex;
+  background-color: white;
   width: 100%;
-  height: 100vh;
-  margin: 20px auto;
-  justify-content: space-between;
-  border: 1px solid black;
-  margin-top: 10px;
-  justify-content: center;
-}
-#sec5b1 {
   display: flex;
-  border: solid black;
-  width: 50%;
-  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5px;
+}
+.leftbox img{
+  margin-bottom: 20px; 
+  width: 85%;
+}
+.rightbox,
+.leftbox {
+  width: 40%;
+}
+.leftbox{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  justify-content: end;
+  gap: 5vh;
   justify-content: center;
   align-items: center;
 }
-#sec5b1 img {
-  display: flex;
-  justify-items: baseline;
-  height: 60vh;
-  padding-top: 60px;
-  padding-right: 60px;
-}
-#sec5b2 {
-  display: flex;
-  border: solid black;
-  width: 50%;
-  height: 100vh;
-}
-.lead0 {
-  display: flex;
-  justify-items: center;
-  font-family: "Work Sans", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 33px;
-  color: #00b39b;
-}
-
-.lead {
-  display: flex;
-  font-family: "Work Sans", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 33px;
-  color: #00b39b;
-}
-#lead1 {
-  display: flex;
-  font-family: "Work Sans", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
-  color: #747474;
-}
-.lead2 {
-  display: flex;
-  font-family: Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 16px;
-  color: #747474;
-}
-/* this is what we worked on in class */
+  .rightbox{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 20px auto;
+    padding: 20px auto;
+  }
+  #innerbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(208,250,244);
+    justify-content: space-evenly;
+    padding: 20px auto;
+  }
+  .rgb1,
+  .rgb2 {
+    height:95%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+  .rgb1{
+    align-self: flex-end;
+   
+  }
+  #r1,
+  #r2,
+  #r3,
+  #r4{
+   width: 90%;
+   height: 50%;
+   margin: 10px auto;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 5%;
+  }
+  .lgb1{
+    display: flex;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    color: #00b39b;
+    justify-items: center;
+    align-items: center;
+  }
+  #lead1{
+    display: flex;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: #747474;
+    gap: 10px;
+  }
+  .lead{
+    display: flex;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 28px;
+    color: #00b39b;
+    gap: 10px;
+  }
+  .lead2{
+    display: flex;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #747474
+  }
 #section6 {
   display: flex;
   width: 75%;
@@ -455,7 +494,27 @@ nav a {
   background-color: rgb(61, 131, 223);
   border-radius: 3px;
 }
-/* this is where we stopped in the class room  */
-/* footer{
-  
-} */
+
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ababab;
+  font-style: normal;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+#id1{
+  margin-bottom: 20px;
+}
+
+
+footer a{
+  text-decoration: none;
+
+}
