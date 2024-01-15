@@ -302,7 +302,7 @@ nav a {
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
-  gap: 20%;
+  gap: 15%;
   column-gap: 50px;
   row-gap: 50px;
   margin-left: 30px;
@@ -310,7 +310,7 @@ nav a {
   align-items: center;
 }
 .icons img {
-  width: 15%;
+  width: 20%;
 }
 #section5 {
   background-color: white;
