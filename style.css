@@ -134,6 +134,7 @@ nav a {
   position: relative;
   border: none;
   padding-bottom: 30px;
+  /* align-items: center; */
 }
 #box3 select {
   background: none;
@@ -225,6 +226,8 @@ nav a {
 #box5 .select {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  justify-content: center;
  
 }
 #box4 option{
@@ -285,9 +288,9 @@ nav a {
   margin-left: 20px;
 }
 #spl1,
-spl2{
+#spl2{
   height:40%;
-  padding-top: 30px;
+  padding-top: 5px;
 }
 #section4 {
   display: flex;
