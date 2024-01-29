@@ -95,6 +95,7 @@ nav a {
   height: 350px;
   border-radius: 10px;
   background-color: rgb(0, 204, 177);
+  justify-content: space-between;
 }
 #box3 img {
   margin-top: 20px;
@@ -155,6 +156,7 @@ nav a {
   height: 350px;
   border-radius: 10px;
   background-color: rgb(61, 131, 223);
+  justify-content: space-between;
 }
 #box4 img {
   margin-top: 20px;
@@ -218,6 +220,7 @@ nav a {
   height: 350px;
   border-radius: 10px;
   background-color: rgb(27, 39, 52);
+ justify-content: space-between;
 }
 #box5 .select {
   display: flex;
